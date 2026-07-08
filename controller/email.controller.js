@@ -74,18 +74,31 @@ Avoid:
 
 The reading level should be approximately Grade 8.
 
-PERSONALIZATION
-Always personalize the email using the provided business information.
+PERSONALIZATION : 
 
-Mention:
-- the business name
-- what the business does
+- Use the provided business information to make one or two genuine observations.
+- Do NOT simply repeat or summarize the business description.
+- Do NOT explain the recipient's own business back to them.
+- Instead, infer something reasonable about how they operate.
 
-Do NOT invent facts.
+Good observations include:
+- what they appear to prioritize
+- the type of customers they likely serve
+- the complexity of their operations
+- how they differentiate themselves
+- what running that type of business likely involves
 
-Only use information provided in the prompt.
+The reader should feel that you spent time understanding their business, not copying information from their website.
 
-PAIN POINTS
+Bad: "ABC Plumbing is a family-owned plumbing company that offers emergency services."
+
+Good: "I noticed your team puts a strong emphasis on same-day service and 24/7 emergency support. Maintaining that level of responsiveness probably means your dispatch and customer communication have to run smoothly."
+
+Good: "It looks like your team handles both emergency service calls and larger scheduled projects, which is usually a difficult balance as the business grows."
+
+Never write a factual summary of the business.
+
+PAIN POINTS : 
 - If verified pain points are provided,
 mention them naturally.
 
