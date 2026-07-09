@@ -30,6 +30,19 @@ OUTPUT FORMAT
   "body": "string"
 }
 
+The "body" field must contain ONLY the HTML email body.
+
+It must NOT contain:
+- sender name
+- company signature
+- contact information
+- footer
+- disclaimer
+- unsubscribe text
+- email signature
+
+The HTML should end with the final CTA paragraph.
+
 EMAIL FORMAT
 - The body must be valid HTML.
 
