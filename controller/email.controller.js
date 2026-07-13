@@ -245,16 +245,13 @@ Before returning the response, verify that:
 - Returns ONLY the JSON object`;
 
 export const generateEmail = async (req, res) => {
-    const { business_name, business_summary, pain_points, industry } = req.body;
+    const { business_name, business_summary, industry } = req.body;
     const userPrompt = `
             Business Name:${business_name}
 
             Industry:${industry}
 
             Business Summary:${business_summary}
-
-            Pain Points:
-            ${pain_points}
 
             Write a personalized cold email for this business.
             `;
